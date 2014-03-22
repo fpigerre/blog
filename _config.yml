@@ -30,6 +30,12 @@ exclude:
   - CNAME
   - atom.xml
   - about.md
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+
+gems:
+  - jekyll-sitemap
 
 #prose config, see http://prose.io/help/handbook.html
 prose:
