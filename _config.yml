@@ -1,0 +1,106 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            "psgs' Thoughts"
+tagline:          "A fun 'lil blog, sharing my thoughts, interests and experiences."
+description:      "A fun 'lil open-source blog, sharing my thoughts, interests and experiences."
+url:              http://blog.psgs.tk
+
+author:
+  name:           'psgs'
+  url:            https://twitter.com/psgs00
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/psgs/blog.psgs.github.io
+
+#files to exclude, array
+exclude:
+  - README.md
+  - LICENSE.md
+  - CNAME
+  - atom.xml
+  - about.md
+
+#prose config, see http://prose.io/help/handbook.html
+prose:
+  siteurl: "http://blog.psgs.tk"
+  media: assets/img
+  relativeLinks: http://blog.psgs.tk/links.jsonp
+  metadata:
+    _posts:
+      - name: categories
+        field:
+          label: Categories
+          element: select
+          placeholder: Select a category
+          options:
+            - name: Technology
+              value: technology
+            - name: Category2
+              value: category2
+            - name: Category3
+              value: category3
+      - name: layout
+        field:
+          element: hidden
+          value: post
+      - name: title
+        field:
+          element: text
+          label: Title
+          value: ""
+      - name: excerpt
+        field:
+          element: text
+          label: Excerpt
+          value: ""
+      - name: author
+        field:
+          element: text
+          label: Author
+          value: psgs
+      - name: comments
+        field:
+          element: checkbox
+          label: Comments Enabled
+          value: true
+      - name: tags
+        field:
+          element: text
+          label: Tags
+          value: ""
+    "/":
+      - name: title
+        field:
+          element: text
+          label: Title
+          value: ""
+      - name: excerpt
+        field:
+          element: text
+          value: ""
+      - name: id
+        field:
+          element: text
+          value: ""
+      - name: layout
+        field:
+          element: select
+          placeholder: Select a layout
+          options:
+            - name: Page
+              value: page
+            - name: Post
+              value: post
+            - name: Default
+              value: default
