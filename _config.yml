@@ -34,9 +34,6 @@ exclude:
   - Gemfile.lock
   - Rakefile
 
-gems:
-  - jekyll-sitemap
-
 #prose config, see http://prose.io/help/handbook.html
 prose:
   siteurl: "http://blog.psgs.tk"

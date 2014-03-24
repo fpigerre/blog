@@ -1,0 +1,341 @@
+.csmb, .csmb-flat {
+    content: '';
+    background-image: url("https://raw.githubusercontent.com/timhuisman/css-social-media-buttons/master/img/sprite-rsmb.png");
+    background-repeat: no-repeat;
+    -webkit-transition: background-color 0.25s ease;
+    -moz-transition: background-color 0.25s ease;
+    -ms-transition: background-color 0.25s ease;
+    -o-transition: background-color 0.25s ease;
+    transition: background-color 0.25s ease;
+    text-indent: -9999px;
+    font-size: 0;
+    line-height: 0;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin: 4px;
+    padding: 0;
+    position: relative;
+    z-index: 200;
+}
+
+.csmb:before, .csmb:after, .csmb-flat:before, .csmb-flat:after {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.csmb:before, .csmb-flat:before {
+    z-index: 100;
+}
+
+.csmb:after, .csmb-flat:after {
+    z-index: 300;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) {
+    .csmb, .csmb-flat {
+        background-image: url("https://github.com/timhuisman/css-social-media-buttons/blob/master/img/sprite-rsmb-x2.png");
+        -webkit-background-size: 84px;
+        -moz-background-size: 84px;
+        background-size: 84px;
+    }
+}
+
+button.csmb, button.csmb-flat {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.csmb:before {
+    -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.csmb:after {
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.25)), color-stop(100%, rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.csmb-flat:before {
+    -webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.csmb-rounded, .csmb-rounded:before, .csmb-rounded:after {
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.csmb-round, .csmb-round:before, .csmb-round:after {
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+}
+
+.csmb-border:before {
+    border: solid 2px #fff;
+    width: 32px;
+    height: 32px;
+    top: -4px;
+    left: -4px;
+}
+
+.csmb-border:after {
+    top: -2px;
+    left: -2px;
+}
+
+.csmb-border.csmb-rounded {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.csmb-border.csmb-rounded:before {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.csmb-border.csmb-round:before {
+    -webkit-border-radius: 18px;
+    border-radius: 18px;
+}
+
+.bitbucket {
+    background-color: #205081;
+    background-position: -56px -84px;
+}
+
+.bitbucket.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 #4e90d3;
+    box-shadow: inset 0 1px 2px 0 #4e90d3;
+}
+
+.bitbucket.csmb-border:after {
+    border: solid 2px #163758;
+}
+
+a.bitbucket:hover, a.bitbucket:focus, button.bitbucket:hover, button.bitbucket:focus {
+    background-color: #2a69aa;
+}
+
+a.bitbucket:active, button.bitbucket:active {
+    background-color: #163758;
+}
+
+.github {
+    background-color: #f8f8f8;
+    background-position: 0 -84px;
+}
+
+.github.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 white;
+    box-shadow: inset 0 1px 2px 0 white;
+}
+
+.github.csmb-border:after {
+    border: solid 2px #dfdfdf;
+}
+
+a.github:hover, a.github:focus, button.github:hover, button.github:focus {
+    background-color: white;
+}
+
+a.github:active, button.github:active {
+    background-color: #dfdfdf;
+}
+
+.github-alt {
+    background-color: #383838;
+    background-position: -56px 0;
+}
+
+.github-alt.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 #787878;
+    box-shadow: inset 0 1px 2px 0 #787878;
+}
+
+.github-alt.csmb-border:after {
+    border: solid 2px #1f1f1f;
+}
+
+a.github-alt:hover, a.github-alt:focus, button.github-alt:hover, button.github-alt:focus {
+    background-color: #525252;
+}
+
+a.github-alt:active, button.github-alt:active {
+    background-color: #1f1f1f;
+}
+
+.lastfm {
+    background-color: #c3000d;
+    background-position: 0 -168px;
+}
+
+.lastfm.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 #ff4350;
+    box-shadow: inset 0 1px 2px 0 #ff4350;
+}
+
+.lastfm.csmb-border:after {
+    border: solid 2px #90000a;
+}
+
+a.lastfm:hover, a.lastfm:focus, button.lastfm:hover, button.lastfm:focus {
+    background-color: #f60010;
+}
+
+a.lastfm:active, button.lastfm:active {
+    background-color: #90000a;
+}
+
+.linkedin {
+    background-color: #0e76a8;
+    background-position: 0 -196px;
+}
+
+.linkedin.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 #46b8f0;
+    box-shadow: inset 0 1px 2px 0 #46b8f0;
+}
+
+.linkedin.csmb-border:after {
+    border: solid 2px #0a5579;
+}
+
+a.linkedin:hover, a.linkedin:focus, button.linkedin:hover, button.linkedin:focus {
+    background-color: #1297d7;
+}
+
+a.linkedin:active, button.linkedin:active {
+    background-color: #0a5579;
+}
+
+.mail {
+    background-color: #f8f8f8;
+    background-position: 0 -224px;
+}
+
+.mail.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 white;
+    box-shadow: inset 0 1px 2px 0 white;
+}
+
+.mail.csmb-border:after {
+    border: solid 2px #dfdfdf;
+}
+
+a.mail:hover, a.mail:focus, button.mail:hover, button.mail:focus {
+    background-color: white;
+}
+
+a.mail:active, button.mail:active {
+    background-color: #dfdfdf;
+}
+
+.reddit {
+    background-color: #cee2f8;
+    background-position: -56px -252px;
+}
+
+.reddit.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 white;
+    box-shadow: inset 0 1px 2px 0 white;
+}
+
+.reddit.csmb-border:after {
+    border: solid 2px #a1c8f2;
+}
+
+a.reddit:hover, a.reddit:focus, button.reddit:hover, button.reddit:focus {
+    background-color: #fbfcfe;
+}
+
+a.reddit:active, button.reddit:active {
+    background-color: #a1c8f2;
+}
+
+.skype {
+    background-color: #00aff0;
+    background-position: -28px 0;
+}
+
+.skype.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 #71d8ff;
+    box-shadow: inset 0 1px 2px 0 #71d8ff;
+}
+
+.skype.csmb-border:after {
+    border: solid 2px #008abd;
+}
+
+a.skype:hover, a.skype:focus, button.skype:hover, button.skype:focus {
+    background-color: #24c4ff;
+}
+
+a.skype:active, button.skype:active {
+    background-color: #008abd;
+}
+
+.spotify {
+    background-color: #81b71a;
+    background-position: -28px -196px;
+}
+
+.spotify.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 #bde967;
+    box-shadow: inset 0 1px 2px 0 #bde967;
+}
+
+.spotify.csmb-border:after {
+    border: solid 2px #628a14;
+}
+
+a.spotify:hover, a.spotify:focus, button.spotify:hover, button.spotify:focus {
+    background-color: #9fe024;
+}
+
+a.spotify:active, button.spotify:active {
+    background-color: #628a14;
+}
+
+.twitter {
+    background-color: #00acee;
+    background-position: 0 -336px;
+}
+
+.twitter.csmb {
+    -webkit-box-shadow: inset 0 1px 2px 0 #6ed7ff;
+    box-shadow: inset 0 1px 2px 0 #6ed7ff;
+}
+
+.twitter.csmb-border:after {
+    border: solid 2px #0087bb;
+}
+
+a.twitter:hover, a.twitter:focus, button.twitter:hover, button.twitter:focus {
+    background-color: #22c2ff;
+}
+
+a.twitter:active, button.twitter:active {
+    background-color: #0087bb;
+}
+
+.github.alt {
+    background-position: 0 -112px;
+}
+
+.twitter.alt {
+    background-position: 0 -364px;
+}
