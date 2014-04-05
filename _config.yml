@@ -29,7 +29,6 @@ exclude:
   - LICENSE.md
   - CNAME
   - atom.xml
-  - about.md
   - Gemfile
   - Gemfile.lock
   - Rakefile
@@ -47,12 +46,12 @@ prose:
           element: select
           placeholder: Select a category
           options:
-            - name: Technology
-              value: technology
-            - name: Category2
-              value: category2
-            - name: Category3
-              value: category3
+            - name: Development
+              value: development
+            - name: Gaming
+              value: gaming
+            - name: Thoughts
+              value: thoughts
       - name: layout
         field:
           element: hidden
