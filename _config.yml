@@ -48,6 +48,8 @@ prose:
           options:
             - name: Development
               value: development
+            - name: Networking
+              value: networking
             - name: Gaming
               value: gaming
             - name: Thoughts
