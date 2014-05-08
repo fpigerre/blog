@@ -46,7 +46,7 @@ For example, the following class could broadcast a message to the server:
      
     }
 
-The task would then be executed by calling the ```BroadCastTask.runTaskTimer(this.plugin, 10, 20);``` from another method, such as the onEnable() method in the main class, where '10' is the delay in ticks before the task is initially run, and '20' is the interval in ticks between each time the task is run.
+The task would then be executed by calling ```BroadCastTask.runTaskTimer(this.plugin, 10, 20);``` from another method, such as the onEnable() method in the main class, where '10' is the delay in ticks before the task is initially run, and '20' is the interval in ticks between each time the task is run.
 In minecraft, one tick as equal to about 0.05 seconds, or one 20th of a second. Making 20 ticks equal to a second and 24,000 ticks equal to one in-game day[^2].
 
 Scheduled tasks can be run asynchronously, however. Running tasks asynchronously could be quite useful when querying SQL databases on a regular basis or manipulating data in an asynchronous manner.
