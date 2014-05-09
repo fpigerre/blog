@@ -3,6 +3,9 @@ markdown:         kramdown
 pygments:         true
 highlighting:     pygments
 
+gems:
+  - jekyll-sitemap
+
 # Permalinks
 permalink:        pretty
 
