@@ -16,6 +16,7 @@ tags:
   - gitchain
   - anonymity
   - distributed
+reading-time: 5 minutes
 title: Using Block-Chains to Transfer Data
 ---
 

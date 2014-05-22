@@ -16,6 +16,7 @@ tags:
   - bukkit
   - scheduling
   - tutorial
+reading-time: 3 minutes
 title: Scheduling Tasks with Bukkit
 ---
 
