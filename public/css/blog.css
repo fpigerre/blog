@@ -26,3 +26,8 @@
     position: relative;
     left: 110px;
 }
+
+.social-widget {
+    display: inline-block;
+    margin-right: 14px;
+}
