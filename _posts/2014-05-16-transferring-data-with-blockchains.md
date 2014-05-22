@@ -32,7 +32,8 @@ Grigorik briefly mentioned at the start of the article he wrote, that it is poss
 This is reasonably plausible, since transactions across a block-chain can be relatively anonymous, due to the fact that, in order to carry out transactions, users simply need a cryptographic key.
 
 > The block chain is agnostic to any "currency". In fact, it can (and will) be adapted to power many other use cases. As a result, it pays to understand the how and the why behind the "minimum viable block chain".
-*Ilyia Grigorik 05/05/2014 [^1]*
+>
+> *Ilyia Grigorik 05/05/2014 [^1]*
 
 Using block-chains to transfer data securely and anonymously is quite an interesting idea. Data could easily be traded, given, bought and sold anonymously, without others gaining access to the data.
 A data block-chain system could even hook into the BitCoin protocol and execute BitCoin[^2] transactions directly when transacting data for currency or vice versa.
