@@ -3,4 +3,3 @@ rvm:
   - 1.9.3
 notifications:
   email: false
-before_install: sh "export NOKOGIRI_USE_SYSTEM_LIBRARIES=true"
