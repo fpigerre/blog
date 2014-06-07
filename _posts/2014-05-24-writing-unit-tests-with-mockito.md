@@ -23,14 +23,14 @@ Testing code, however, isn't always as straight forward as some may think. There
 One of the latter methods is unit testing[^2]. Unit testing aims to assess whether the developer wants code to run the way it runs by running the code against certain parameters, and checking the methods run against tests written by the developer.
 
 Since the widespread adoption of unit testing, many developers have created third-party libraries that integrate unit-testing methods into various languages. A few newer languages even support unit-testing natively, such as the "D" language[^3]. In order to write unit tests when developing using the Java language, for example, when creating a complex Bukkit plugin or backend mechanism, a third party library must be used.
-One of the most common unit-testing library for Java is JUnit[^4], developed in 1997 by Kent Beck and Erich Gamma. JUnit provides the ability to create tests that use annotations to run separate code before, during and after a test class is initialised. This allows developers to *chronologically* test whether their code is working correctly, as the tests complete.
+One of the most common unit-testing libraries for Java is JUnit[^4], developed in 1997 by Kent Beck and Erich Gamma. JUnit provides the ability to create tests that use annotations to run separate code before, during and after a test class is initialised. This allows developers to *chronologically* test whether their code is working correctly, as the tests complete.
 
-JUnit, however, doesn't allow for the detailed and easy analysis of methods that were run during the tests. In a JUnit test, variables are checked using an assertion method or keyword that will check whether a variable is as it is intended to be. Using Mockito[^5], however, a 'mock' (pun intended) instance of a class can be created, allowing all sorts of checks to be run against that method.
-This may not seem like a very powerful feature at first, however it can allow the developer to write tests that check the amount of times a method was run, what arguments were used, and can even allow a certain method to return a "simulated" value.
+JUnit, however, doesn't allow for the detailed and easy analysis of methods that were run during the tests. In a JUnit test, variables are checked using an assertion method or keyword that will check whether a variable is equal to a pre-defined value, thus passing or failing a test. Using Mockito[^5], however, a 'mock' (pun intended) instance of a class can be created, allowing all sorts of checks to be run against that method.
+This may not seem like a very powerful feature at first, however, it can allow the developer to write tests that check the amount of times a method was run, what arguments were used, and can even allow a certain method to return a "simulated" value.
 Furthermore, the features of JUnit and Mockito can be combined to allow the creation of chronological tests that analyse and assert methods in detail.
-Mockito does have several drawbacks, however. When using annotations to "mock" classes, the annotations must be initialised by a constructor. This sometimes requires the creation of a "master-class", that tests would extend. Also, Mockito verifications must be reset after each test, if several tests are run consecutively, in order to stop the verification from impacting the next test.
+Mockito does have several drawbacks, however. When using annotations to "mock" classes, the annotations must be initialised by a constructor. This sometimes requires the creation of a "master-class", that tests would extend. Also, Mockito verifications must be reset after each test if several tests are run consecutively, in order to stop the verification from impacting the next test.
 
-When writing a test using Mockito and JUnit, the test would usually be structured similar to a regular chronological test, for example:
+When writing a test using Mockito and JUnit, I would usually create a test that would be structured similar to a regular chronological test, for example:
 
     String string = "hello";
 
@@ -46,7 +46,7 @@ When writing a test using Mockito and JUnit, the test would usually be structure
 
 
 However, using Mockito, I could check whether the ```addComma()``` method was actually executed, and with which arguments.
-I could then structure my test similar to the following:
+I could then structure my test similarly to the following:
 
     StringUtils stringUtils = mock(StringUtils.class);
     String string = "hello";
