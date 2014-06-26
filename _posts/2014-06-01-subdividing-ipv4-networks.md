@@ -45,31 +45,22 @@ IPv4 addresses are divided into classes. These classes are labelled using alphab
 Any IP address whose first octet lies in the range of 1-127 can be categorised into category A. From there, each category only accepts a certain window of first-octet values, each window decreasing by a certain multiple of eight, as the class changes.
 This information is summarised in the following table:
 
----------------
-Class | Range |
----------------
-A | 1-127     |
----------------
-B | 128-191   |
----------------
-C | 192-223   |
----------------
-D | 224-239   |
----------------
-E | 240-255   |
----------------
+
+Class | Range
+------|--------
+A | 1-127
+B | 128-191
+C | 192-223
+D | 224-239
+E | 240-255
 
 Classes A to C (publicly used address classes) each utilise a default subnet mask. This subnet mask is changed during the process of sub-netting, in order to allow host bits to become network bits and vice versa.
 
----------------------
-Class | Subnet Mask |
----------------------
-A | 255.0.0.0       |
----------------------
-B | 255.255.0.0     |
----------------------
-C | 255.255.255.0   |
----------------------
+Class | Subnet Mask
+------|--------------
+A | 255.0.0.0
+B | 255.255.0.0
+C | 255.255.255.0
 
 Any bits in an IP address that correspond to a non-null value in a subnet mask are regarded as network bits. For example, in the following class A address ```12.182.43.6```, with the following subnet mask ```255.0.0.0```, the value of 12 (in binary digits) would be regarded as network bits (bits indicating the network on which the IP address would reside).
 If the subnet mask was 255.252.0.0, the end result would change however. 
