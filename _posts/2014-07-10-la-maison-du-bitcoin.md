@@ -21,7 +21,7 @@ title: La Maison du BitCoin &middot A French Adventure...
 ---
 
 Last week, while visiting Paris, the bustling capital of France, I popped into "La Maison du BitCoin", one of France's first, certified, commercial BitCoin exchanges[^1].
-La Maison du BitCoin, situated in the third "arrondisement" of Paris[^2], was established late last year, and is now visited by many curious Parisians and travellers, eager to delve into the exciting, new world of crypto-currency.
+La Maison du BitCoin, situated in the third "arrondisement" of Paris[^2], was established early this year, and is now visited by many curious Parisians and travellers, eager to delve into the exciting, new world of crypto-currency.
 Although it was setup to "promote the emergence and development of ambitious projects" that utilise the BitCoin protocol, La Maison du BitCoin also offers Parisians a central platform for buying BitCoin in cash.
 
 > Pourrais je avoir un BitCoin s'il vous plait?
