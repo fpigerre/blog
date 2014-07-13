@@ -39,7 +39,7 @@ As this was the first time i'd ever visited a "bricks and mortar" BitCoin store,
 As we were talking, the staff member asked if i'd like to buy any BitCoin using the large white cube i'd passed earlier, which happened, in-fact, to be a BitCoin ATM.
 
 ![ATM]({{ site.url }}/public/images/bitcoin-atm.jpg)
-*- [Courtesy of La Maison du BitCoin (Twitter)](pic.twitter.com/C8VZsaQ6RI)*
+*- [Courtesy of La Maison du BitCoin (Twitter)](https://twitter.com/LaMaisonDuBTC/status/466243134603927553/photo/1)*
 
 On the screen flashed the current BitCoin to Euro exchange rate. I was quite tempted to buy a small amount, to test the ATM's user-friendly experience, however, the price was about 51 Euros (USD $69) higher than the exchange rate i'd checked about an hour ago online[^4] (this price may have included a 10% commission that La Maison du BitCoin charges for purchases), so I contented myself with a brochure and walked on my way.
 It was interesting to note however, that in order to buy BitCoin from La Maison du BitCoin, a valid identification document is required, so as to comply with the ACPR's (Autorité de Contrôle Prudentiel et de Résolution)[^5] anti-fraud and money laundering policies.
