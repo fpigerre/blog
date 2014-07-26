@@ -32,7 +32,6 @@ exclude:
   - README.md
   - LICENSE.md
   - CNAME
-  - atom.xml
   - Gemfile
   - Gemfile.lock
   - Rakefile
