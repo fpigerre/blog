@@ -21,7 +21,7 @@ layout: default
     }(document, 'script', 'twitter-wjs');</script>
 </div>
 <div class="inline-widget">
-    <h4 class="data-proofer-ignore"><a href="/categories/index.html">{{ page.categories }} category</a></h4>
+    <h4 class="data-proofer-ignore"><a href="{{ site.url }}/categories/index.html">{{ page.categories }} category</a></h4>
 </div>
 
 <div class="related">
@@ -30,7 +30,7 @@ layout: default
         {% for post in site.related_posts limit:3 %}
         <li>
             <h3>
-                <a href="{{ post.url }}">
+                <a href="{{ site.url }}{{ post.url }}">
                     {{ post.title }}
                     <small>{{ post.date | date_to_string }}</small>
                 </a>
