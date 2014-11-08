@@ -13,11 +13,11 @@ permalink:        pretty
 title:            "psgs' Thoughts"
 tagline:          "A fun 'lil blog, sharing my thoughts, interests and experiences."
 description:      "A fun 'lil open-source blog, sharing my thoughts, interests and experiences."
-url:              http://blog.psgs.tk
+url:              http://psgs.github.io/blog
 
 author:
   name:           'psgs'
-  url:            https://twitter.com/psgs00
+  url:            http://psgs.tk
 
 paginate:         5
 
@@ -25,7 +25,7 @@ paginate:         5
 version:          1.0.0
 
 github:
-  repo:           https://github.com/psgs/blog.psgs.github.io
+  repo:           https://github.com/psgs/blog
 
 #files to exclude, array
 exclude:
@@ -38,9 +38,9 @@ exclude:
 
 #prose config, see http://prose.io/help/handbook.html
 prose:
-  siteurl: "http://blog.psgs.tk"
+  siteurl: "http://psgs.github.io/blog"
   media: assets/img
-  relativeLinks: http://blog.psgs.tk/links.jsonp
+  relativeLinks: http://psgs.github.io/blog/links.jsonp
   metadata:
     _posts:
       - name: categories
