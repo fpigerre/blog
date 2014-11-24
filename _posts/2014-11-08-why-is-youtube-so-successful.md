@@ -29,7 +29,7 @@ A tool for social change is harnessed, allowing like-minded people to connect wi
 
 YouTube's success builds upon how socially accessible it has become. Throughout the day, videos are posted, shared, tweeted and recommended to us, promising to shed light on an issue, explain a concept, or relieve us from the day's mundane tasks.
 In many classrooms, YouTube has become an accepted learning tool, creating new opportunities for content to be aimed at students.
-Channels such as [history/science bootcamp here]() take advantage of such an opportunity, allowing them to grow and explore business opportunities. In turn, these creators increase YouTube's popularity by appealing to a new group of people.
+Channels such as [CrashCourse](http://youtube.com/CrashCourse) take advantage of such an opportunity, allowing them to grow and explore business opportunities. In turn, these creators increase YouTube's popularity by appealing to a new group of people.
 The fact that each of YouTube's videos is created by users unimaginably increases YouTube's ability to cater for all people in a scalable way.
 
 > YouTube's primary source of value is produced by people, for people.
