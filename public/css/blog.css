@@ -12,6 +12,19 @@
 }
 
 /* Sidebar Media Buttons */
+.social-buttons {
+  padding-left: 25px;
+}
+
+.mediabutton-1, .mediabutton-2, .mediabutton-3 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.mediabutton-1:hover, .mediabutton-2:hover, .mediabutton-3:hover {
+  text-decoration: none;
+}
+
 .mediabutton-1 {
     position: relative;
     left: 35px;
