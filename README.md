@@ -1,4 +1,4 @@
-psgs' Blog  [![Build Status](https://travis-ci.org/psgs/blog.psgs.github.io.png?branch=master)](https://travis-ci.org/psgs/blog.psgs.github.io)  [![GitHub version](https://badge.fury.io/gh/psgs%2Fblog.psgs.github.io.png)](http://badge.fury.io/gh/psgs%2Fblog.psgs.github.io)
+psgs' Blog  [![Build Status](https://travis-ci.org/psgs/blog.png?branch=master)](https://travis-ci.org/psgs/blog)  [![GitHub version](https://badge.fury.io/gh/psgs%2Fblog)](http://badge.fury.io/gh/psgs%2Fblog)
 ===================
 
 A fun 'lil blog sharing my thoughts and experiences.
