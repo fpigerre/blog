@@ -34,6 +34,7 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - Rakefile
 
 #prose config, see http://prose.io/help/handbook.html
 prose:
