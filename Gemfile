@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-#github
+# GitHub
 gem 'github-pages'
 
 group :test do
