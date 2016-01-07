@@ -1,8 +1,7 @@
 require 'html/proofer'
 
-#task :test do
-#  sh "bundle exec jekyll build"
-#  HTML::Proofer.new("./_site").run
-#end
+task :test do
+  sh "bundle exec jekyll build"
+end
 
-#task :default => :test
+task :default => :test
