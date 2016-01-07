@@ -13,7 +13,7 @@ permalink:        pretty
 title:            "psgs' Thoughts"
 tagline:          "A fun 'lil blog, sharing my thoughts, interests and experiences."
 description:      "A fun 'lil open-source blog, sharing my thoughts, interests and experiences."
-url:              https://psgs.github.io/blog
+url:              https://psgs.tk/blog
 
 author:
   name:           'psgs'
@@ -36,11 +36,11 @@ exclude:
   - Gemfile.lock
   - Rakefile
 
-#prose config, see http://prose.io/help/handbook.html
+# Prose config, see http://prose.io/help/handbook.html
 prose:
-  siteurl: "https://psgs.github.io/blog"
+  siteurl: "https://psgs.tk/blog"
   media: assets/img
-  relativeLinks: https://psgs.github.io/blog/links.jsonp
+  relativeLinks: https://psgs.tk/blog/links.jsonp
   metadata:
     _posts:
       - name: categories
