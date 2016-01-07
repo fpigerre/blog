@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
+<script>
+  /* Force the use of TLS (HTTPS) */
+  var host = window.location.host;
+  if ((host == 'psgs.github.io' || host == 'psgs.tk') && (window.location.protocol != 'https:'))
+    window.location.protocol = 'https';
+</script>
 
-    {% include sidebar.html %}
+{% include sidebar.html %}
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <header class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
-        </div>
-      </header>
-
-      <div class="container content">
-        {{ content }}
-      </div>
-        {% include improve.html %}
+<!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+     content to avoid any CSS collisions with our real content. -->
+<div class="wrap">
+  <header class="masthead">
+    <div class="container">
+      <h3 class="masthead-title">
+        <a href="/" title="Home">{{ site.title }}</a>
+        <small>{{ site.tagline }}</small>
+      </h3>
     </div>
+  </header>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+  <div class="container content">
+    {{ content }}
+  </div>
+  {% include improve.html %}
+</div>
 
-  </body>
+<label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+</body>
 </html>
